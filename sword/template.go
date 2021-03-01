@@ -2744,12 +2744,12 @@ var TemplateList = map[string]string{"403": `<div class="missing-content">
 {{end}}`, "header": `{{define "header"}}
     <header class="main-header">
         <!-- Logo -->
-        <!--a href="{{.UrlPrefix}}" class="logo">
+        <a href="{{.UrlPrefix}}" class="logo">
             <!-- mini logo for sidebar mini 50x50 pixels -->
             <span class="logo-mini">{{.MiniLogo}}</span>
             <!-- logo for regular state and mobile devices -->
             <span class="logo-lg">{{.Logo}}</span>
-        </a-->
+        </a>
         <!-- Header Navbar: style can be found in header.less -->
         <nav class="navbar navbar-static-top">
             <div id="firstnav">
